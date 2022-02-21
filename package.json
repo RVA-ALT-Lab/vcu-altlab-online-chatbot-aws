@@ -1,0 +1,40 @@
+{
+  "name": "lex-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JEverhart383/aws-workbench.git"
+  },
+  "author": "Jeff Everhart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JEverhart383/aws-workbench/issues"
+  },
+  "homepage": "https://github.com/JEverhart383/aws-workbench#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.9.10",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.24",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3"
+  }
+}
